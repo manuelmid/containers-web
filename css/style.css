@@ -1,0 +1,176 @@
+body {
+    background: #F4F4F4;
+    
+}
+
+.container {
+    width: 780px;
+    margin: 0 auto;
+    background: #FFF;
+    box-shadow: 0px 3px 8px 0px;
+    
+}
+
+.header {
+    
+    padding: 45px 0 20px 40px;
+    
+}
+
+.menu {
+    
+    background: #3b7687;
+    padding: 6px 0 6px 40px;
+}
+
+.menu a {
+    
+    color: #c5d6db;
+    text-decoration: none;
+    font-size: 14px;
+    font-family: "Arial Narrow", "Mzriad Pro";
+}
+
+.menu a:hover {
+    
+    color: #141712;
+}
+
+aside {
+    
+    float: left;
+    width: 120px;
+    padding: 30px 0 0 40px;
+}
+
+h1 {
+    
+    margin: 0px;
+    color: seagreen;
+    font-size: 24px;
+    font-family: "Arial Narrow", "Mzriad Pro";
+    font-weight: normal;
+    
+}
+
+h2 {
+    
+    color: #3b7687;
+    font-size: 15px;
+    margin: 20px 0 5px 0;
+}
+
+.link-title {
+    text-decoration: none;
+    font-size: 30px;;
+    color: #42261b;
+}
+
+.page-heading {
+    
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.main {
+    
+    margin: 0 0 0 180px;
+    padding 35px 40px 30px 0;
+    color: #444444;
+    font-family: "Georgia";
+    font-size: 13px;
+    line-height: 18px;
+    text-emphasis: justify;
+}
+
+.main a:hover {
+    
+    color: #444444;
+}
+
+
+#home-image img {
+    width: 95%;
+}
+
+/**About Pages Stzles**/
+
+#about-page #home-image img {
+    
+    width: 70%;
+    float: left;
+    margin-bottom: 20px;
+}
+
+
+#about-page #profile-info {
+    
+    float: right;
+    width: 20%;
+    margin: 5px;
+}
+
+
+
+
+.separator {
+    
+    color: white;
+    font-size: 11px;
+}
+
+#about-page .description {
+    
+    clear: both;
+    margin-top: 28px;
+}
+
+
+
+
+footer a {
+    
+    text-decoration: none;
+    color: #262626;
+}
+
+footer {
+    
+    padding: 6px 40px  6px 40px;
+    background: #d6d6d6;
+    font-family: "Lucida Sans Unicode";
+    color: #444444;
+    font-size: 11px;
+    text-decoration: right;    
+}
+
+/***********Contact Page*************/
+
+#contact #form { 
+    width: 500px;
+    padding: 10px 10px 10px 10px;
+    margin: 0 auto;
+    box-shadow: 0px 3px 8px 0px;
+    border-radius: 5px;
+}
+
+#contact #form input {
+    width: 100%;
+    border-radius: 5px;
+    height: 20px;
+    background: #c5d6db;
+}
+
+#contact form #message {
+    width: 100%;
+    border-radius: 5px;
+    background: #c1cbcb;
+    box-shadow: 0px 3px 8px 0px;
+}
+
+#contact #form #submit {
+    height: 30px;
+    background: #3b7687;
+    color: #c5d6db;
+}
