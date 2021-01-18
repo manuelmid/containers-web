@@ -1,12 +1,14 @@
 body {
-    background: #F4F4F4;
-    
+    background-image: url(2.jpeg);
+    background-size: 1396px 990px;
+    /*background-position: center;*/
+    /*background-repeat: repeat-y;*/
 }
 
 .container {
     width: 780px;
     margin: 0 auto;
-    background: #FFF;
+    background: #ffffff8a;
     box-shadow: 0px 3px 8px 0px;
     
 }
@@ -19,25 +21,29 @@ body {
 
 .menu {
     
-    background: #3b7687;
+    background: #85b1d3bd;
     padding: 6px 0 6px 40px;
 }
 
 .menu a {
-    
-    color: #c5d6db;
+    color: #5b4a4e;
     text-decoration: none;
-    font-size: 14px;
+    font-size: 15px;
     font-family: "Arial Narrow", "Mzriad Pro";
 }
 
 .menu a:hover {
     
-    color: #141712;
+    color: white;
+}
+
+.link-title {
+    text-decoration: none;
+    font-size: 30px;;
+    color: #5b4a4e;
 }
 
 aside {
-    
     float: left;
     width: 120px;
     padding: 30px 0 0 40px;
@@ -46,7 +52,7 @@ aside {
 h1 {
     
     margin: 0px;
-    color: seagreen;
+    color: #5b4a4e;
     font-size: 24px;
     font-family: "Arial Narrow", "Mzriad Pro";
     font-weight: normal;
@@ -55,16 +61,11 @@ h1 {
 
 h2 {
     
-    color: #3b7687;
+    color: #5b4a4e;
     font-size: 15px;
     margin: 20px 0 5px 0;
 }
 
-.link-title {
-    text-decoration: none;
-    font-size: 30px;;
-    color: #42261b;
-}
 
 .page-heading {
     
@@ -73,14 +74,20 @@ h2 {
     margin-top: 20px;
 }
 
-.main {
+.sidebar {
+    width: 160px;
+    height: 300px;
+    margin: -30px;
     
+}
+
+.main {
     margin: 0 0 0 180px;
     padding 35px 40px 30px 0;
-    color: #444444;
+    color: black;
     font-family: "Georgia";
-    font-size: 13px;
-    line-height: 18px;
+    font-size: 15px;
+    line-height: 20px;
     text-emphasis: justify;
 }
 
@@ -92,23 +99,23 @@ h2 {
 
 #home-image img {
     width: 95%;
+    border-radius: 2px;
+    box-shadow: 0px 3px 8px 0px
 }
 
 /**About Pages Stzles**/
 
 #about-page #home-image img {
-    
     width: 70%;
     float: left;
-    margin-bottom: 20px;
+    margin-top: 20px;
 }
 
 
 #about-page #profile-info {
-    
     float: right;
     width: 20%;
-    margin: 5px;
+    margin: 30px;
 }
 
 
@@ -174,3 +181,4 @@ footer {
     background: #3b7687;
     color: #c5d6db;
 }
+
